@@ -1,16 +1,132 @@
-# React + Vite
+# Expense Tracker Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Expense Tracker Dashboard built using **React.js**.  
+This application allows users to track income and expenses, view monthly summaries, and manage transactions with a clean and intuitive UI.
 
-Currently, two official plugins are available:
+## This project demonstrates practical frontend development skills including state management, component architecture, and dynamic UI updates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- User Authentication (Login / Register)
+- Add Transactions (Income / Expense)
+- Delete Transactions
+- Real-Time Total Balance Calculation
+- Monthly Income & Expense Summary
+- Percentage-Based Expense Analysis
+- Transaction List Display
+- Logout Functionality (Top Right)
+- Responsive & Modern UI Design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript (ES6+)
+- CSS3
+- Vite
+- Git & GitHub
+
+---
+
+## Concepts Implemented
+
+- React Functional Components
+- useState Hook
+- Conditional Rendering
+- Array Methods (map, filter, reduce)
+- Component-Based Architecture
+- Clean UI Structuring
+- Git Workflow (add, commit, push)
+
+---
+
+## Project Structure
+
+```
+expense-tracker-dashboard/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── TransactionList.jsx
+│   │   └── MonthlySummary.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+# Complete Setup Guide (Run Locally)
+
+Follow these steps to run this project on your system:
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/expense-tracker-dashboard.git
+```
+
+### 2️⃣ Navigate into the Project Folder
+
+```bash
+cd expense-tracker-dashboard
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Start the Development Server
+
+```bash
+npm run dev
+```
+
+### 5️⃣ Open in Browser
+
+The app will run on:
+
+```
+http://localhost:5173
+```
+
+---
+
+# How It Works
+
+- Transactions are stored in React state.
+- Income and expense values are calculated dynamically.
+- Total balance updates automatically.
+- Monthly summary calculates percentages using JavaScript logic.
+- UI updates instantly without page reload.
+
+---
+
+# Future Improvements
+
+- Add Chart Visualizations (Pie / Bar Graph)
+- Dark Mode
+- Backend Integration (Node.js / Firebase)
+- Persistent Database Storage
+- JWT Authentication
+- Advanced Mobile Optimization
+
+---
+
+# Contribution
+
+## Contributions, suggestions, and improvements are welcome.
+
+> Built with consistency and passion for frontend development
